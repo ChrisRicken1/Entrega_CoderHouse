@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab&display=swap');
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Roboto Slab', serif; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.barra a:hover{
+    color: blue;
+}
+
+main{
+    height: calc(100vh - 60px - 65px);
+    width: 100%;
+    background-image: url(../Imagenes/technology-7111804_1280.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.presentacion{
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.932);
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow: column;
+    align-items:flex-start;
+    margin-bottom: 50px;
+}
+
+.imagenPersonal{
+    background-color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.imagenPersonal img{
+    height: 150px;
+    width: 150px;
+}
+
+main .barra a{
+    color: black;
+}
+
+/* Completar cuando tenga idea de como hacerlo */
+/* .bordeRedondo{
+    height: 70px;
+    width: 70px;
+    padding: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+} */
+
+/* .bordeRedondo:hover{
+    color: white;
+} */
+
+
+footer{
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p{
+    color: white;
+    word-spacing: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.redes{
+    text-align: center;
+    word-spacing: 40px;
+    padding-bottom: 7px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.3s ease;
+}
+
+.redes a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+/* Aptitudes */
+
+.aptitudes{
+    background-color: rgba(255, 255, 255, 0.932);
+    height: 300px;
+    width: 600px;
+    color:black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aptitudes ul li{
+    list-style: none;
+    display: inline-block;
+    width: 140px;
+height: 20px;
+    padding: 3px;
+}
+
+.barraProgresivaContenedor{
+    background-color: grey;
+    width: 60%;
+    height: 12px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+}
+
+.barraProgresiva{
+    background-color: rgba(76, 148, 243, 0.678);
+    height: 100%;
+    border-radius: 12px;
+    color: wh;
+}
+
+.html{
+    width: 50%
+}
+
+.css{
+    width: 50%;
+}
+
+.javascript{
+    width: 0%;
+}
+
+.react{
+    width: 0%;
+}
+
+.python{
+    width: 50%;
+}
+
+.sql{
+    width: 50%;
+}
+
+.spanish{
+    width: 100%;
+}
+
+.english{
+    width: 85%;
+}
+
+.german{
+    width: 25%;
+}
+
+
+/* Proyectos */
+
+.proyectos{
+    height: 350px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.945);
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+
+.proyectos div .noDisponible{
+    height: 150px;
+    width: 150px;
+    padding: 0px 0px 10px 0px;
+}
+
+.proyectos div p{
+    color: rgb(0, 0, 0);
+    padding: 0px 5px;
+}
+
+.proyectos div{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+.proyectos h3{
+    height: 26px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0px 0px 5px 0px;
+}
+
+/* Roadmap */
+
+.roadmap img{
+    height: 350px;
+}
+
+/* Contacto */
+
+.contacto{
+    background-color: white;
+    height: 300px;
+    width: 700px;
+    display: flex;
+    padding: 25px;
+}
+
+.formulario a{
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 0px;
+    color: black;
+    transition: font-size 0.3s ease;
+}
+
+.formulario a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+.contacto form{
+    width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto form .input, textarea{
+    padding: 3px;
+    border: solid;
+    margin: 0px 0px 5px 0px;
+}
+
+.contacto form textarea{
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 120px;
+    max-height: 120px;
+}
+
+.contacto form .botonEnviar{
+    height: 25px;
+    width: 125px;
+    padding: 3px;
+}
