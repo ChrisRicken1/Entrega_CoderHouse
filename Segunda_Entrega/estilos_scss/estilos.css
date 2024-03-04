@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab&display=swap");
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Roboto Slab', serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+header .navbar {
+  background-color: black;
+}
+header .nav-link {
+  font-size: 20px;
+  color: white !important;
+}
+header .nav-link:hover {
+  color: blue !important;
+}
+
+main {
+  height: calc(100vh - 60px - 90px);
+  width: 100%;
+  background-image: url(../Imagenes/technology-7111804_1280.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .imagenPersonal {
+  background-color: white;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+main .presentacion {
+  height: 350px;
+  width: 400px;
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.932);
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  main .imagenPersonal,
+  main .presentacion {
+    height: 280px;
+    width: 280px;
+    font-size: 0.8em;
+  }
+  main p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 576px) {
+  main .imagenPersonal,
+  main .presentacion {
+    height: 235px;
+    width: 235px;
+    font-size: 0.5em;
+  }
+  main p {
+    font-size: 1.3em;
+  }
+}
+
+footer {
+  background-color: black;
+  height: 90px;
+  width: 100%;
+  padding: 0px 10px;
+  font-size: 25px;
+}
+footer p {
+  color: white;
+  word-spacing: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+footer .redes {
+  text-align: center;
+  word-spacing: 40px;
+  padding-bottom: 7px;
+}
+footer .redes a {
+  text-decoration: none;
+  color: white;
+  transition: font-size 0.3s ease;
+}
+footer .redes a:hover {
+  color: blue;
+  font-size: 30px;
+}/*# sourceMappingURL=estilos.css.map */
