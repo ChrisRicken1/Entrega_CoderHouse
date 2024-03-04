@@ -20,7 +20,7 @@ header .nav-link:hover {
 }
 
 main {
-  height: calc(100vh - 60px - 90px);
+  height: calc(100vh - 62px - 90px);
   width: 100%;
   background-image: url(../Imagenes/technology-7111804_1280.jpg);
   background-size: cover;
@@ -96,6 +96,43 @@ footer .redes a {
 footer .redes a:hover {
   color: blue;
   font-size: 30px;
+}
+
+.formulario {
+  height: 550px;
+  width: 850px;
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.932);
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 857px) {
+  .formulario {
+    height: 500px;
+    width: 750px;
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 769px) {
+  .formulario {
+    height: 630px;
+    width: 550px;
+    font-size: 0.7em;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 560px) {
+  .formulario {
+    height: 650px;
+    width: 450px;
+    font-size: 0.7em;
+    margin: 30px 0px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

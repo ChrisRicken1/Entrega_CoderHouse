@@ -3,6 +3,9 @@
 font-family: 'Roboto Slab', serif; */
 $f1: 'Dancing Script', cursive;
 $f2: 'Roboto Slab', serif;
+$c1: black;
+$c2: white;
+$c3: blue;
 
 *{
     margin: 0;
@@ -13,19 +16,19 @@ $f2: 'Roboto Slab', serif;
 
 header{
         .navbar{
-            background-color: black;
+            background-color: $c1;
         }
         .nav-link{
             font-size: 20px;
-            color: white !important;
+            color: $c2 !important;
         }
         .nav-link:hover{
-            color:blue !important;
+            color:$c3 !important;
         }
 }
 
 main{
-    height: calc(100vh - 60px - 90px);
+    height: calc(100vh - 62px - 90px);
     width: 100%;
     background-image: url(../Imagenes/technology-7111804_1280.jpg);
     background-size: cover;
@@ -33,7 +36,7 @@ main{
     justify-content: center;
     align-items: center;
     .imagenPersonal{
-        background-color: white;
+        background-color: $c2;
         height: 350px;
         display: flex;
         align-items: center;
@@ -76,7 +79,6 @@ main{
         }
     }    
 }
-
 footer{
     background-color: black;
     height: 90px;
@@ -84,7 +86,7 @@ footer{
     padding: 0px 10px;
     font-size: 25px;
     p{
-        color: white;
+        color: $c2;
         word-spacing: 25px;
         text-align: center;
         margin-bottom: 15px;
@@ -95,12 +97,14 @@ footer{
         padding-bottom: 7px;
         a{
             text-decoration: none;
-            color: white;
+            color: $c2;
             transition: font-size 0.3s ease;
         }
         a:hover{
-            color: blue;
+            color: $c3;
             font-size: 30px;
         }
     }
 }
+
+@import "_contacto";
