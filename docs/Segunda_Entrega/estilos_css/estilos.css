@@ -8,17 +8,6 @@ font-family: 'Roboto Slab', serif; */
   font-family: "Roboto Slab", serif;
 }
 
-header .navbar {
-  background-color: black;
-}
-header .nav-link {
-  font-size: 20px;
-  color: white !important;
-}
-header .nav-link:hover {
-  color: blue !important;
-}
-
 main {
   height: calc(100vh - 62px - 90px);
   width: 100%;
@@ -70,6 +59,17 @@ main .presentacion {
   }
 }
 
+header .navbar {
+  background-color: black;
+}
+header .nav-link {
+  font-size: 20px;
+  color: white !important;
+}
+header .nav-link:hover {
+  color: blue !important;
+}
+
 footer {
   background-color: black;
   height: 90px;
@@ -96,6 +96,11 @@ footer .redes a {
 footer .redes a:hover {
   color: blue;
   font-size: 125%;
+}
+@media (max-width: 990px) {
+  footer {
+    height: 96px;
+  }
 }
 
 .formulario {
@@ -138,6 +143,98 @@ footer .redes a:hover {
   footer {
     height: 55px;
     font-size: 100%;
+  }
+}
+.aptitudes {
+  background-color: rgba(255, 255, 255, 0.932);
+  height: 500px;
+  width: 800px;
+  color: black;
+}
+.aptitudes .progress {
+  background-color: rgb(197, 197, 197);
+  width: 95%;
+}
+.aptitudes h4 {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+.aptitudes ul li {
+  list-style: none;
+  display: inline-block;
+  width: 140px;
+  height: 20px;
+  padding: 3px;
+}
+@media (max-width: 810px) {
+  .aptitudes {
+    width: 600px;
+  }
+}
+@media (max-width: 610px) {
+  .aptitudes {
+    width: 400px;
+  }
+}
+
+.proyectos {
+  height: 570px;
+  width: 900px;
+  background-color: rgba(255, 255, 255, 0.945);
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+}
+.proyectos h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+@media (max-width: 991px) {
+  .proyectos {
+    height: 550px;
+    width: 750px;
+  }
+  .proyectos h2 {
+    font-size: 22px;
+  }
+  .proyectos img {
+    height: 150px;
+    width: auto;
+  }
+  .proyectos p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .proyectos {
+    height: 620px;
+    width: 650px;
+  }
+  .proyectos .img {
+    text-align: center;
+  }
+  .proyectos .img img {
+    height: 100px;
+    width: 100px;
+  }
+  .proyectos p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 680px) {
+  .proyectos {
+    height: 620px;
+    width: 550px;
+  }
+}
+@media (max-width: 580px) {
+  .proyectos {
+    height: 650px;
+    width: 450px;
   }
 }
 

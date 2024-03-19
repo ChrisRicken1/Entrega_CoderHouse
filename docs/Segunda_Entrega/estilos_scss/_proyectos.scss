@@ -1,0 +1,56 @@
+.proyectos{
+    height: 570px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.945);
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    h2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: #ffff;
+    }
+    @media (max-width:991px)
+    {
+        height: 550px;
+        width: 750px;
+        h2{
+            font-size: 22px;
+        }
+        img{
+            height: 150px;
+            width: auto;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 767px)
+    {
+        height: 620px;
+        width: 650px;
+        .img{
+            text-align: center;
+            img{
+                height: 100px;
+                width: 100px;
+            }
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+
+    @media(max-width: 680px)
+    {
+        height: 620px;
+        width: 550px;
+    }
+
+    @media(max-width: 580px)
+    {
+        height: 650px;
+        width: 450px;
+    }
+}

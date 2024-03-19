@@ -1,0 +1,12 @@
+header{
+    .navbar{
+        background-color: $c1;
+    }
+    .nav-link{
+        font-size: 20px;
+        color: $c2 !important;
+    }
+    .nav-link:hover{
+        color:$c3 !important;
+    }
+}

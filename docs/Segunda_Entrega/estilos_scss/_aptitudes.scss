@@ -1,0 +1,35 @@
+.aptitudes{
+    background-color: rgba(255, 255, 255, 0.932);
+    height: 500px;
+    width: 800px;
+    color:black;
+    .progress{
+        background-color: rgb(197, 197, 197);
+        width: 95%;
+    }
+    h4{
+        background-color: black;
+        color: white;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    ul{
+        li{
+            list-style: none;
+            display: inline-block;
+            width: 140px;
+            height: 20px;
+            padding: 3px;
+        }
+    }
+
+    @media (max-width: 810px ){
+        width: 600px;
+    }
+
+    @media(max-width: 610px){
+        width: 400px;
+    }
+
+}
